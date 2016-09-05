@@ -1,0 +1,92 @@
+body{
+    background-image: url(NOPC%20reworked-1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+nav{
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+#pushMenu {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.menu{
+    left: -275px;
+    position: inherit;
+    width: 275px;
+    margin: 20px;
+}
+
+
+/* Make pictures thumbnails */
+
+
+div.img{
+    border: thin groove red;
+    width: 300px;
+}
+
+div.img:hover{
+    background-color: skyblue;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Carousel Styles */
+
+#myCarousel{
+   margin: auto;
+    margin-top: 100px;
+    
+    height: 50%;
+}
+
+#video{
+    margin:100px;
+}

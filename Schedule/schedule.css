@@ -1,0 +1,56 @@
+body{
+	background-color: white;	
+}
+
+.navbar{
+    width: 50%;
+	margin: auto;
+	margin-left: 25%;
+	
+}
+
+
+.jumbotron{
+	background-image: url(NOPC%20reworked-1-1.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-color: white;
+
+}
+
+#table{
+    border-style: groove;
+    border-color: red;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: green;
+    background-color: white;
+}
+
+h3{
+    text-align: center; 
+}
+
+table{
+    padding: 30px;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin 10px 0px 10px 0px;
+    padding: 10px;
+}
